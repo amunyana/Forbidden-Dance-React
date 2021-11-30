@@ -1,0 +1,106 @@
+.Group8132186 {
+  width: 369px;
+  height: 356px;
+  margin: 0 205px 0 0;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+
+.image {
+  top: 0px;
+  left: 0px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+}
+.image1 {
+  top: 0px;
+  left: 0px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 0.6000000238418579);
+}
+.image2 {
+  top: 167px;
+  left: 71px;
+  width: 222px;
+  height: 7px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 1);
+}
+.image3 {
+  top: 210px;
+  left: 101px;
+  width: 157px;
+  height: 7px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 1);
+}
+.text {
+  top: 152px;
+  left: 110px;
+  color: rgba(0, 0, 0, 1);
+  width: 147px;
+  height: 24px;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.text1 {
+  top: 194px;
+  left: 132px;
+  color: rgba(0, 0, 0, 1);
+  width: 92px;
+  height: 24px;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.rootClassName {
+  top: 378px;
+  left: 173px;
+  position: absolute;
+}
+@media(max-width: 991px) {
+  .rootClassName {
+    top: 265px;
+    left: var(--dl-space-space-sixunits);
+  }
+}
+@media(max-width: 479px) {
+  .rootClassName {
+    top: 157px;
+    left: var(--dl-space-space-fourunits);
+    right: var(--dl-space-space-sixunits);
+  }
+}

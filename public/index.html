@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="english">
+  <head>
+    <title>Forbidden Dance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style>
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}
+    </style>
+    <style>
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/playground_assets/forbidden dance logo.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lateef:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    (function () { class Menu { init = () => { this.listenForUrlChanges()
+    this.getMenuElementsAndAddEvents() return this; };
+    getMenuElementsAndAddEvents = () => { const menuElements =
+    teleport.getAllElByClass( "teleport-menu-burger" ); if
+    (!menuElements.length) { teleport.log("No teleport-menu-burger items
+    found"); return; } menuElements.forEach((burgerMenuElement) => { const
+    mobileMenuElement =
+    burgerMenuElement.nextElementSibling?.className.includes(
+    "teleport-menu-mobile" ) ? (burgerMenuElement.nextElementSibling) : null; if
+    (!mobileMenuElement) { teleport.error( `${burgerMenuElement} has no
+    corresponding element with class 'teleport-menu-mobile' as the next
+    sibling.` ); return; } const closeMenuElement =
+    mobileMenuElement.querySelector( '*[class*="teleport-menu-close"]' ); if
+    (!closeMenuElement) { teleport.error( `${mobileMenuElement} has no child
+    element with class 'teleport-menu-close'` ); return; }
+    burgerMenuElement.addEventListener("click", () => {
+    mobileMenuElement.classList.add("teleport-show"); });
+    closeMenuElement.addEventListener("click", () => {
+    mobileMenuElement.classList.remove("teleport-show"); }); }); };
+    listenForUrlChanges = () => { let url = location.href;
+    document.body.addEventListener('click', () => { requestAnimationFrame(() =>
+    { if (url !== location.href) { console.log('URL changed');
+    this.getMenuElementsAndAddEvents() url = location.href } }); }, true); } }
+    const teleport = { debug: false, log: (msg, obj) => { if (teleport.debug) {
+    console.log("teleport: " + msg, obj || ""); } }, error: (msg, object) => {
+    console.error("teleport-error: " + msg, object); }, getElByClass:
+    (className) => { const el =
+    document.querySelector(`*[class*="${className}"]`); if (!el) {
+    teleport.error(`did not find ${className} class`); } return el; },
+    getAllElByClass: (className) => { const elements =
+    document.querySelectorAll(`*[class*="${className}"]`); if (!elements) {
+    teleport.error(`did not find ${className} class`); } return elements; },
+    Menu, } new Menu().init() })()
+  </body>
+</html>

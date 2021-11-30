@@ -1,0 +1,330 @@
+.container {
+  min-height: 100vh;
+}
+.Classes103122 {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  position: relative;
+  max-width: 1920px;
+  box-sizing: border-box;
+  align-items: center;
+  border-color: transparent;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.text {
+  top: 84px;
+  left: 173px;
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  position: absolute;
+  font-size: 34px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+.image {
+  top: -226px;
+  left: 1188px;
+  width: 159px;
+  height: 352px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 0.6000000238418579);
+}
+.Frame1103124 {
+  top: 74px;
+  left: 1029px;
+  width: 691px;
+  height: 49px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: center;
+  border-color: transparent;
+  justify-content: space-between;
+}
+.text1 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-family: Josefin Sans;
+  font-weight: 300;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+}
+.text1:hover {
+  background-color: rgba(249, 213, 189, 0.47);
+}
+.text2 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 300;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+}
+.text3 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-family: Josefin Sans;
+  font-weight: 300;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text3:hover {
+  text-decoration:    none;
+  background-color: rgba(249, 213, 189, 0.47);
+}
+.Bellydance-Container {
+  top: 378px;
+  left: 173px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Bellydance-Container:hover {
+  opacity: 0.02;
+}
+.image1 {
+  top: 0px;
+  left: 0px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: transparent;
+}
+
+.image2 {
+  top: 131px;
+  left: 26px;
+  width: 318px;
+  height: 47px;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 1);
+}
+
+.text4 {
+  top: 142px;
+  left: 88px;
+  color: rgba(0, 0, 0, 1);
+  width: 193px;
+  height: 24px;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.Latin-Container {
+  top: 378px;
+  left: 747px;
+  width: 369px;
+  height: 356px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Latin-Container:hover {
+  opacity: 0.02;
+}
+.image3 {
+  top: 0px;
+  left: 0px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+}
+.image4 {
+  top: 131px;
+  left: 26px;
+  width: 318px;
+  height: 47px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 1);
+}
+.text5 {
+  top: 142px;
+  left: 141px;
+  color: rgba(0, 0, 0, 1);
+  width: 87px;
+  height: 24px;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.Fitness-Container {
+  top: 378px;
+  left: 1321px;
+  width: 369px;
+  height: 356px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Fitness-Container:hover {
+  opacity: 0.02;
+}
+.image5 {
+  top: 0px;
+  left: 0px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+}
+.image6 {
+  top: 131px;
+  left: 26px;
+  width: 318px;
+  height: 47px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 1);
+}
+.text6 {
+  top: 144px;
+  left: 56px;
+  color: rgba(0, 0, 0, 1);
+  width: 257px;
+  height: 24px;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media(max-width: 991px) {
+  .text {
+    left: 234px;
+  }
+  .image {
+    top: -126px;
+    right: 543px;
+    display: none;
+  }
+  .Frame1103124 {
+    top: 169px;
+    left: 167px;
+    position: absolute;
+  }
+  .text2 {
+    background-color: #F9D5BD;
+  }
+  .Bellydance-Container {
+    top: 268px;
+    left: var(--dl-space-space-sixunits);
+  }
+  .image1 {
+    top: -3px;
+    left: 0px;
+    right: -99px;
+  }
+  .Latin-Container {
+    top: 265px;
+    left: 550px;
+    right: var(--dl-space-space-sixunits);
+    position: absolute;
+  }
+  .Fitness-Container {
+    top: 700px;
+    left: 328px;
+    position: absolute;
+    align-self: stretch;
+  }
+}
+@media(max-width: 479px) {
+  .text {
+    top: 46px;
+    left: var(--dl-space-space-oneandhalfunits);
+    font-size: 24px;
+  }
+  .Frame1103124 {
+    top: 85px;
+    left: 87px;
+    width: 330px;
+  }
+  .text1 {
+    font-size: 14px;
+  }
+  .text2 {
+    font-size: 14px;
+  }
+  .text3 {
+    font-size: 14px;
+  }
+  .Bellydance-Container {
+    top: 160px;
+    left: var(--dl-space-space-fourunits);
+    margin: auto;
+  }
+  .Latin-Container {
+    top: 550px;
+    left: var(--dl-space-space-fourunits);
+  }
+  .Fitness-Container {
+    top: 950px;
+    left: var(--dl-space-space-fourunits);
+  }
+}

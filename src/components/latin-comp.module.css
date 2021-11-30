@@ -1,0 +1,105 @@
+.Group10132205 {
+  width: 369px;
+  height: 356px;
+  margin: 0 205px 0 0;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+.image {
+  top: 0px;
+  left: 0px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+}
+.image1 {
+  top: 0px;
+  left: 0px;
+  width: 369px;
+  height: 356px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 0.6000000238418579);
+}
+.image2 {
+  top: 148px;
+  left: 74px;
+  width: 222px;
+  height: 7px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 1);
+}
+.image3 {
+  left: 108px;
+  width: 157px;
+  bottom: 158px;
+  height: 7px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(249, 213, 189, 1);
+}
+.text {
+  top: 131px;
+  left: 89.3333740234375px;
+  color: rgba(0, 0, 0, 1);
+  width: 182px;
+  height: 24px;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.text1 {
+  top: 174px;
+  left: 115.3333740234375px;
+  color: rgba(0, 0, 0, 1);
+  width: 132px;
+  height: 24px;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: 122.50000238418579%;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.rootClassName {
+  top: 377px;
+  left: 747px;
+  position: absolute;
+}
+@media(max-width: 991px) {
+  .rootClassName {
+    top: 264px;
+    left: 550px;
+    right: -83px;
+    position: absolute;
+  }
+}
+@media(max-width: 479px) {
+  .rootClassName {
+    top: 550px;
+    left: var(--dl-space-space-fourunits);
+  }
+}
